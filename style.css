@@ -1,0 +1,392 @@
+body {
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	color: #111111;
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+p.lede {
+	font-size: 22px;
+	line-height: 1.5;
+	color: #111111;
+	font-family: "Roboto Slab", Georgia, serif;
+	font-weight: 400;
+	margin-top: 70px;
+}
+
+a {
+	color: #6cf;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.dropcap {
+	float: left;
+	background: #6cf;
+	color: #fff;
+	font-size: 120px;
+	line-height: 60px;
+	padding: 5px 16px 10px 16px;
+	margin: 3px 10px 0 0;
+	font-weight: 700;
+	font-family: "Roboto Slab", Georgia, serif;
+}
+
+.dropcaplede {
+	float: left;
+	background: #6cf;
+	color: #fff;
+	font-size: 120px;
+	line-height: 60px;
+	padding: 10px 16px 15px 16px;
+	margin: 8px 10px 0 0;
+	font-weight: 700;
+	font-family: "Roboto Slab", Georgia, serif;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+.story {
+	height: 1000px;
+	padding: 0;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#header {
+	height: 100vh;
+	background: url("img/header.jpg") 0 no-repeat fixed;
+	margin: 0;
+	padding: 0;
+	z-index: 0;
+}
+
+#header h1 {
+	font-size: 90px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 35vh 16px 0 16px; /* 20% from the top of the page, 16px at the sides */
+	text-shadow: 0 0 .25em #000;
+	color: #ffffff; /* for testing */
+	font-family: "Roboto Slab", Georgia, serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	max-width: 1000px;
+}
+
+#header h2 {
+	font-size: 40px;
+	text-align: center;
+	line-height: 1.2;
+	margin: 0 auto;
+	padding: 0 16px 0 16px;
+	text-shadow: 0 0 .25em #000;
+	color: #ffffff; /* for testing */
+	font-family: "Roboto Slab", Georgia, serif;
+	font-weight: 700;
+	max-width: 1000px;
+	text-transform: none;
+}
+
+.by {
+	display: block;
+	position: relative;
+	max-width: 500px;
+	text-align: center;
+	margin: -4.4em auto 0 auto;
+	padding: 5px;
+	background-color: #fff;
+}
+
+.by p {
+	line-height: 1;
+	font-family: "Roboto Slab", Georgia, serif;
+	font-weight: 400;
+	font-size: 20px;
+	z-index: 61;
+}
+
+.bold {
+	font-family: "Roboto Slab", Georgia, serif;
+	font-weight: 600;
+}
+
+#toc {
+	z-index: 1;
+	float: right;
+	right: 0;
+	background-color: #eefcff;
+	width: 100%;
+	margin: 0;
+}
+
+#toc p {
+	font-size: 16px;
+	margin: 0;
+	padding: 10px;
+	font-family: "Roboto Slab", Georgia, serif;
+	line-height: 1.2;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#toc a {
+	text-decoration: none;
+	color: #222;
+}
+
+#toc a:hover {
+	text-decoration: underline;
+	color: #6cf;
+}
+
+#toc .divider {
+	padding: 0 10px;
+}
+
+#toc #s0l {
+	font-weight: 600;
+}
+	
+.articletext {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 16px 0 16px;
+	text-align: justify;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: "Roboto Slab", Georgia, serif;
+	font-weight: 300;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: justify;
+	text-transform: uppercase;
+}
+
+h2 b {
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 22px;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-weight: 200;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+	text-align: justify;
+}
+
+#bigimage1 {
+	background: url("img/bigpic.jpg") 50% 0 no-repeat fixed;
+	z-index: -1;
+	height: 500px;
+}
+
+.smallimage {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 20px 20px 0;
+	z-index: -1;
+}
+
+.smallimage img {
+	width: 100%;
+	vertical-align: baseline;
+	z-index: -1;
+}
+
+#bigimagewithquote1 {
+	background: url("img/bigpicquote_lepen.jpg") 100% 0 no-repeat fixed;
+	height: 500px;
+	background-position: 50%;
+}
+
+#bigimagewithquote2 {
+	background: url("img/bigpicquote_france.jpg") 100% 0 no-repeat fixed;
+	height: 500px;
+	background-position: 50%;
+}
+
+#bigimagewithquote3 {
+	background: url("img/bigpicquote_lyon.jpg") 100% 0 no-repeat fixed;
+	height: 500px;
+	background-position: 50%;
+}
+
+.quoteleft {
+	max-width: 50%;
+	padding: 0 0 10vh 10vw;
+	position: absolute;
+	bottom: 0;
+}
+
+.quoteleft p {
+	font-family: "Roboto Slab";
+	font-size: 3em;
+	font-weight: 700;
+	color: #fff;
+	text-shadow: 0 0 .25em #000;
+	line-height: 1;
+	text-align: right;
+	margin: 0;
+}
+
+.quoteright {
+	max-width: 50%;
+	padding: 0 0 10vh 45vw;
+	position: absolute;
+	bottom: 0;
+}
+
+.quoteright p {
+	font-family: "Roboto Slab";
+	font-size: 3em;
+	font-weight: 700;
+	color: #fff;
+	text-shadow: 0 0 .25em #000;
+	line-height: 1;
+	margin: 0;
+}
+
+p.author {
+	font-family: "Roboto Slab", Georgia, serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 300;
+	color: #fff;
+	text-shadow: 0 0 .25em #000;
+	line-height: 1;
+	margin: 0.75em 1em 0 0;
+	text-transform: uppercase;
+}
+
+p.author b {
+	font-weight: 700;
+}
+
+.caption {
+	width: 100%;
+	vertical-align: baseline;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: right;
+	font-style: italic;
+	float: right;
+	margin-bottom: 2em;
+	line-height: 0.5;
+}
+
+.chart {
+	float: center;
+	width: 600px;
+	margin: 0 auto;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+#entry6 {
+	border-bottom: 1px solid grey;
+}
+
+.partylegend {
+	float: right;
+	width: 28vw;
+	padding-top: 10px;
+	top: 300px;
+	position: relative;
+}
+
+#mepAttendanceChart {
+	float: center;
+	margin: 0 auto;
+	width: 600px;
+	border-top: 1px solid grey;
+}
+
+.mep-pictures {
+	width: 100%;
+	height: 100px;
+}
+
+.mep-entry {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+.mep-picture {
+	width: 13%;
+	float: right;
+	padding-left: 5px;
+}
+
+.mep-picture img {
+}
+
+.mep-description {
+	margin: 25px;
+}
+
+.mep-name {
+	font-family: "Roboto Slab", Georgia, serif;
+	font-size: 1.5em;
+	font-style: normal;
+	font-weight: 300;
+	text-transform: uppercase;
+	bottom: 0;
+}
+
+.mep-name b {
+	font-family: "Roboto Slab", Georgia, serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	bottom: 0;
+}
+
+.mep-party {
+	font-family: "Roboto Slab", Georgia, serif;
+	font-size: 0.7em;
+	font-style: normal;
+	font-weight: 200;
+	text-transform: uppercase;
+	bottom: 0;
+}
+
+.mep-percent {
+	font-family: "Roboto Slab", Georgia, serif;
+	font-size: 3em;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	bottom: 0;
+	width: 15%;
+	float: left;
+	margin: 17px 10px 0 0;
+}
+
+.gap {
+	padding-bottom: 50px;
+}
